@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace surmaq
 {
-    public partial class Form1 : Form
+    public partial class FPrincipal : Form
     {
-        public Form1()
+        public FPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }
