@@ -50,6 +50,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCaja.Designer.cs">
+      <DependentUpon>FCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FDemo.Designer.cs">
+      <DependentUpon>FDemo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +70,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FCaja.resx">
+      <DependentUpon>FCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FDemo.resx">
+      <DependentUpon>FDemo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

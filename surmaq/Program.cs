@@ -16,7 +16,7 @@ namespace surmaq
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FPrincipal());
+            Application.Run(new FDemo());
         }
     }
 }
