@@ -15,6 +15,8 @@ namespace surmaq
         public FCaja()
         {
             InitializeComponent();
+            mtbSubtotal.Text = "00000000";
+            
         }
     }
 }
